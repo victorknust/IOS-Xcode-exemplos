@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contatos</key>
+	<array>
+		<dict>
+			<key>nome</key>
+			<string>Lucas Augusto</string>
+			<key>telefone</key>
+			<string>0000-0000</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ana Sophia</string>
+			<key>telefone</key>
+			<string>1111-1111</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Maria Julia</string>
+			<key>telefone</key>
+			<string>2222-2222</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>João Pedro</string>
+			<key>telefone</key>
+			<string>3333-3333</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Eduardo Silva</string>
+			<key>telefone</key>
+			<string>4444-4444</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Mateus Martins</string>
+			<key>telefone</key>
+			<string>5555-5555</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ana Paula</string>
+			<key>telefone</key>
+			<string>6666-6666</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Marcos Vinicius</string>
+			<key>telefone</key>
+			<string>7777-7777</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Vitor Braga Leite</string>
+			<key>telefone</key>
+			<string>8888-8888</string>
+		</dict>
+		<dict>
+			<key>nome</key>
+			<string>Ana Paula Assis Junqueira</string>
+			<key>telefone</key>
+			<string>9999-9999</string>
+		</dict>
+	</array>
+</dict>
+</plist>
