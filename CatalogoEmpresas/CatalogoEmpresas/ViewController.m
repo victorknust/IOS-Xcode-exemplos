@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ExibeCatalogoController.h"
 #import "Empresa.h"
 
 @interface ViewController ()
@@ -19,6 +20,35 @@
 {
     [super viewDidLoad];
 	self.avisoSucessoLabel.hidden = YES;
+    self.title = @"Cadastro de Empresa";
+    
+    UIBarButtonItem *barButton = [[UIBarButtonItem alloc]
+                                  initWithBarButtonSystemItem:UIBarButtonSystemItemAction
+                                  target:self
+                                  action:@selector(menuButtonPressed)];
+    
+    UIBarButtonItem *barButton2 = [[UIBarButtonItem alloc]
+                                  initWithBarButtonSystemItem:UIBarButtonSystemItemDone
+                                  target:self
+                                  action:@selector(menuButtonPressed)];
+    
+    [[self navigationItem] setRightBarButtonItem:barButton];
+    [[self navigationItem] setLeftBarButtonItem:barButton2];
+    [barButton release];
+}
+
+- (void) viewWillAppear:(BOOL)animated{
+    //[self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+
+-(void)menuButtonPressed{
+    UIAlertView *alert = [[[UIAlertView alloc]
+                           initWithTitle:@"Contato"
+                           message:@"Mensagem" delegate:nil
+                           cancelButtonTitle:@"OK"
+                           otherButtonTitles:nil] autorelease];
+    [alert show];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -43,11 +73,10 @@
 }
 
 - (void) mostraCatalogo {
-    NSLog(@"******* Listando todas empresas *******");
-    
-    for (Empresa *empresa in catalogo) {
-        NSLog(@"A empresa %@  tem %d funcionários", empresa.nome, empresa.quantidadeFuncionarios);
-    }
+    ExibeCatalogoController *c = [[ExibeCatalogoController alloc] init];
+    c.catalogo = catalogo;
+    [self.navigationController pushViewController:c animated:YES];
+    [c release];
 }
 
 - (IBAction)salvar:(id)sender {
@@ -79,5 +108,7 @@
 - (IBAction)incrementadorAlterado:(id)sender {
     UIStepper *incrementador = (UIStepper *)sender;
     self.quantidadeField.text = [NSString stringWithFormat:@"%d", (int)incrementador.value];
+    
+    [self.nomeFiled resignFirstResponder];
 }
 @end

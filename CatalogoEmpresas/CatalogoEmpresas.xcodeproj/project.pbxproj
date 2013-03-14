@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D554C33F16F0DD7000640BD0 /* ExibeCatalogoController.m in Sources */ = {isa = PBXBuildFile; fileRef = D554C33D16F0DD7000640BD0 /* ExibeCatalogoController.m */; };
+		D554C34016F0DD7000640BD0 /* ExibeCatalogoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D554C33E16F0DD7000640BD0 /* ExibeCatalogoController.xib */; };
 		D5BA6FCC16EAAA5F005E6687 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BA6FCB16EAAA5F005E6687 /* UIKit.framework */; };
 		D5BA6FCE16EAAA5F005E6687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BA6FCD16EAAA5F005E6687 /* Foundation.framework */; };
 		D5BA6FD016EAAA5F005E6687 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5BA6FCF16EAAA5F005E6687 /* CoreGraphics.framework */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D554C33C16F0DD7000640BD0 /* ExibeCatalogoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExibeCatalogoController.h; sourceTree = "<group>"; };
+		D554C33D16F0DD7000640BD0 /* ExibeCatalogoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExibeCatalogoController.m; sourceTree = "<group>"; };
+		D554C33E16F0DD7000640BD0 /* ExibeCatalogoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExibeCatalogoController.xib; sourceTree = "<group>"; };
 		D5BA6FC816EAAA5F005E6687 /* CatalogoEmpresas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatalogoEmpresas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BA6FCB16EAAA5F005E6687 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D5BA6FCD16EAAA5F005E6687 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,9 +95,12 @@
 				D5BA6FDB16EAAA5F005E6687 /* AppDelegate.m */,
 				D5BA6FE316EAAA5F005E6687 /* ViewController.h */,
 				D5BA6FE416EAAA5F005E6687 /* ViewController.m */,
+				D5BA6FE616EAAA5F005E6687 /* ViewController.xib */,
+				D554C33C16F0DD7000640BD0 /* ExibeCatalogoController.h */,
+				D554C33D16F0DD7000640BD0 /* ExibeCatalogoController.m */,
+				D554C33E16F0DD7000640BD0 /* ExibeCatalogoController.xib */,
 				D5BA6FEE16EAD2F4005E6687 /* Empresa.h */,
 				D5BA6FEF16EAD2F4005E6687 /* Empresa.m */,
-				D5BA6FE616EAAA5F005E6687 /* ViewController.xib */,
 				D5BA6FD216EAAA5F005E6687 /* Supporting Files */,
 			);
 			path = CatalogoEmpresas;
@@ -168,6 +176,7 @@
 				D5BA6FE016EAAA5F005E6687 /* Default@2x.png in Resources */,
 				D5BA6FE216EAAA5F005E6687 /* Default-568h@2x.png in Resources */,
 				D5BA6FE816EAAA5F005E6687 /* ViewController.xib in Resources */,
+				D554C34016F0DD7000640BD0 /* ExibeCatalogoController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +191,7 @@
 				D5BA6FDC16EAAA5F005E6687 /* AppDelegate.m in Sources */,
 				D5BA6FE516EAAA5F005E6687 /* ViewController.m in Sources */,
 				D5BA6FF016EAD2F4005E6687 /* Empresa.m in Sources */,
+				D554C33F16F0DD7000640BD0 /* ExibeCatalogoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +312,7 @@
 				D5BA6FED16EAAA5F005E6687 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
